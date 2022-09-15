@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit';
+    background-color: hsl(217, 54%, 11%);
+}
+.tudo{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+.card{
+    display: flex;
+    width: 270px;
+    height: 480px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px;  
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+.card img{
+    display: flex;
+    width: 240px;
+    height: 240px;
+    margin-top: 17px;
+    border-radius: 7px;
+}
+.fodase{
+    justify-content: left;
+    color: hsl(0, 0%, 100%);
+    padding-top: 15px;
+}
+.fodase h3{
+    padding-right: 82px;
+}
+.fodase2{
+    font-size: 14px;
+    padding: 5px;
+    color: hsl(215, 27%, 33%);
+    font-weight: bold;
+}
+.oi img{
+    display: inline;
+    width: 13px;
+    height: 16px;
+}
+.oi{
+    display: inline;
+  color: hsl(178, 100%, 50%);
+  margin-right: 150px;
+}
+.oi p{
+    display: inline;
+}
+.thau{
+    margin-left: 160px;
+    margin-top: -34px;
+    color: hsl(215, 27%, 33%);
+    
+}
+.thau img{
+    width: 15px;
+    height: 16px;
+    display: inline;
+}
+.icone img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-left: -115px;
+}
+.acabo{
+    color: hsl(215, 27%, 33%);
+    margin-left: 13px;
+    margin-top: -25px;
+}
